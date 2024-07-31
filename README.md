@@ -1,4 +1,4 @@
-# electron-badge
+# badge-electron
 
 ## Installation
 ```
