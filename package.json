@@ -1,13 +1,13 @@
 {
-  "name": "electron-badge",
+  "name": "badge-electron",
   "version": "1.0.0",
   "description": "Library for badge managing in electron apps",
   "author": "Georg Krom",
   "license": "MIT",
-  "homepage": "https://github.com/GeorgKrom/electron-badge#readme",
+  "homepage": "https://github.com/GeorgKrom/badge-electron#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GeorgKrom/electron-badge"
+    "url": "https://github.com/GeorgKrom/badge-electron"
   },
   "scripts": {
     "compile": "tsc"

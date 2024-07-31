@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-$ npm install electron-badge
+$ npm install badge-electron
 ```
 
 ## Features
