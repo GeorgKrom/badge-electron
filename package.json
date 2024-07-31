@@ -1,7 +1,7 @@
 {
   "name": "electron-badge",
-  "version": "1.0.1",
-  "description": "Library to manage badge",
+  "version": "1.0.0",
+  "description": "Library for badge managing in electron apps",
   "author": "Georg Krom",
   "license": "MIT",
   "homepage": "https://github.com/GeorgKrom/electron-badge#readme",
@@ -10,7 +10,7 @@
     "url": "https://github.com/GeorgKrom/electron-badge"
   },
   "scripts": {
-    "test": ""
+    "compile": "tsc"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
