@@ -1,0 +1,8 @@
+.gitignore
+tsconfig.json
+.eslintrc.json
+
+.vscode
+.idea
+src
+node_modules

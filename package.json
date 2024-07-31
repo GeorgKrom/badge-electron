@@ -1,0 +1,37 @@
+{
+  "name": "electron-badge",
+  "version": "1.0.1",
+  "description": "Library to manage badge",
+  "author": "Georg Krom",
+  "license": "MIT",
+  "homepage": "https://github.com/GeorgKrom/electron-badge#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeorgKrom/electron-badge"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "@stylistic/eslint-plugin-ts": "^2.3.0",
+    "@types/node": "^20.14.11",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "electron": "^31.3.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [
+    "electron",
+    "badge",
+    "windows",
+    "macos",
+    "linux",
+    "notifications",
+    "icon"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}

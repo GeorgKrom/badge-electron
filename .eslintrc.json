@@ -1,0 +1,55 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@stylistic/recommended-extends"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "@stylistic"],
+    "root": true,
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx", "*.js"],
+            "parser": "@typescript-eslint/parser"
+        }
+    ],
+    "globals": {
+        "JSX": true
+    },
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "no-undef": "off",
+        "@stylistic/quotes": ["warn", "single"],
+        "@stylistic/member-delimiter-style": ["error", {
+            "multiline": {
+                "delimiter": "semi",
+                "requireLast": true
+            },
+            "singleline": {
+                "delimiter": "semi",
+                "requireLast": false
+            },
+            "multilineDetection": "brackets"
+        }],
+        "@stylistic/padding-line-between-statements": ["error",
+            { "blankLine": "always", "prev": "*", "next": ["return", "block-like"] },
+            { "blankLine": "always", "prev": "block-like", "next": "*" }
+        ],
+        "no-case-declarations": "off",
+        "@stylistic/brace-style": "off",
+        "@stylistic/operator-linebreak": ["warn", "after", { "overrides": { "?": "before", ":": "before" } }],
+        "@stylistic/arrow-parens": ["warn", "as-needed"],
+        "@stylistic/spaced-comment": "off",
+        "@stylistic/template-curly-spacing": ["warn", "always"],
+        "@stylistic/semi": ["error", "always"],
+        "@stylistic/eol-last": ["warn", "never"],
+        "@stylistic/indent-binary-ops": ["error", 4],
+        "padding-line-between-statements": "error",
+        "@stylistic/indent": ["error", 4, { "SwitchCase": 1 }],
+        "prefer-arrow-callback": "warn",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+    }
+}
